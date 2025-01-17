@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edunom : Study MBBS in Abroad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/4d509971f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <!-- <script src="tailwind.js"></script> -->
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <header class="flex flex-row max-md:hidden">
+        <!-- <div class="bg-white p-4 flex justify-center items-center">
+          <a href="index.php"> <img src="img/logo1.png" class="lg:w-[350px] h-auto md:w-[300px] min-w-[190px]" alt=""></a>
+          </div> -->
+        <div class="w-full">
+            <div class="flex justify-between bg-white w-full py-2 px-6 md:px-24  text-black items-center">
+                <a href="index.php"><img src="img/logo.svg" class=" h-auto md:w-[200px] w-[190px] -ml-4" alt=""></a>
+
+                <ul class="flex lg:gap-7 gap-3 !text-[17px] items-center">
+                    <a href="about-us.php">
+                        <li class="hover:border-b transition-all border-[#2A2F83] ">About Us</li>
+                    </a><a href="our-services.php">
+                        <li class="hover:border-b transition-all border-[#2A2F83] ">Our Services</li>
+                    </a>
+
+                    <a href="blog.php">
+                        <li class="hover:border-b transition-all border-[#2A2F83] ">Blogs</li>
+                    </a>
+                    </a><a href="contact-us.php">
+                        <li class="hover:border-b transition-all border-[#2A2F83] ">Contact Us</li>
+                    </a>
+                    <!-- <a href="tel:+919911552705"><button
+                            class="contact-btn text-lg shadow pr-6 text-black flex items-center"> <i
+                                class=" fa-solid fa-phone  mr-2 bg-[#2A2F83] rounded-full text-white p-3"></i>
+                            <p class="leading-5 text-left text-[16px]"> &nbsp; Call Anytime <br> +919911552705 </p>
+                        </button></a> -->
+                </ul>
+
+                <div class="flex gap-7 text-black text-xl custom:-ml-44 max-lg:hidden"><a href=""><i
+                            class="fa-brands hover:text-[#2A2F83] transition-all hover:scale-110 fa-x-twitter"></i></a>
+                    <a href=""><i
+                            class="fa-brands hover:text-[#2A2F83] transition-all hover:scale-110 fa-facebook-f"></i></a><a
+                        href=""><i
+                            class="fa-brands hover:text-[#2A2F83] transition-all hover:scale-110 fa-instagram"></i></a>
+                    <a href=""><i
+                            class="fa-brands hover:text-[#2A2F83] hover:scale-110 transition-all fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <nav class="nav-main lg:px-24 px-6">
+                <ul class="nav-list">
+                    <li class="nav-item main" x-data="{ open: false }" @mouseenter="open = true"
+                        @mouseleave="open = false">
+                        <a href="construction.php" @click.prevent="open = !open">MBBS Abroad</a>
+                        <ul x-show="open" x-transition:enter="submenu-enter" x-transition:leave="submenu-leave"
+                            class="submenu">
+                            <li><a href="permanent-residency-visa/canada-pr-visa.php">MBBS in Russia</a></li>
+                            <li><a href="canada/canada-express-entry.php">MBBS in Philipins</a></li>
+                            <li><a href="canada/canada-family-sponsorship.php">MBBS in Bangladesh</a></li>
+
+
+                            <li><a href="canada/Atiantic-immigration-pilot.php">MBBS in Mauritius</a></li>
+                            <li><a href="canada/canada-business-visa.php">MBBS in Nepal</a></li>
+                            <li><a href="canada/self-employed-person-program.php">MBBS in Uzbekistan</a></li>
+                            <li><a href="canada/caregivers.php">Kazakhstan</a></li>
+                            <li><a href="canada/rural-and-northern-immigration-pilot.php">MBBS in Belarus</a></li>
+                            <li><a href="canada/canada-agri-food-pilot.php">MBBS in Georgia</a></li>
+                            <li><a href="canada/canada-refugees-and-asylum.php">MBBS in Armenia</a></li>
+                            <li><a href="canada/canada-refugees-and-asylum.php">MBBS in China</a></li>
+                            <li><a href="canada/canada-refugees-and-asylum.php">MBBS in Poland</a></li>
+                            <li><a href="canada/canada-refugees-and-asylum.php">MBBS in Germany</a></li>
+                            <li><a href="canada/canada-refugees-and-asylum.php">MBBS in Malaysia</a></li>
+                            <li><a href="canada/canada-refugees-and-asylum.php">MBBS in Kyrgyzstan</a></li>
+                        </ul>
+                    </li>
+
+
+                    <!-- 2nd -->
+                    <li class="nav-item main" x-data="{ open: false }" @mouseenter="open = true"
+                        @mouseleave="open = false">
+                        <a href="construction.php" @click.prevent="open = !open">Study Abroad</a>
+                        <ul x-show="open" x-transition:enter="submenu-enter" x-transition:leave="submenu-leave"
+                            class="submenu">
+                            <li><a href="permanent-residency-visa/australia-pr-visa.php">Study in Canada</a></li>
+                            <li><a href="australia/australia-skilled-migration.php">Study in USA</a></li>
+                            <li><a href="australia/australia-employer-sponsored-visa.php">Study in Australia</a></li>
+                            <li><a href="australia/australia-family-visa.php">Study in Dubai</a></li>
+                            <li><a href="australia/australia-student-visa.php">Study in Italy</a></li>
+                            <li><a href="australia/australia-subclass-482-visa.php">Study in France</a></li>
+                            <li><a href="australia/australia-subclass-482-visa.php">Study in Malaysia</a></li>
+                            <li><a href="australia/australia-subclass-482-visa.php">Study in New Zealand</a></li>
+                            <li><a href="australia/australia-subclass-482-visa.php">Study in Ireland</a></li>
+                            <li><a href="australia/australia-subclass-482-visa.php">Study in UK</a></li>
+                            <li><a href="australia/australia-subclass-482-visa.php">Study in Singapore</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- 3rd -->
+                    <li class="nav-item main" x-data="{ open: false }" @mouseenter="open = true"
+                        @mouseleave="open = false">
+                        <a href="construction.php" @click.prevent="open = !open">MBA Abroad</a>
+                        <ul x-show="open" x-transition:enter="submenu-enter" x-transition:leave="submenu-leave"
+                            class="submenu">
+                            <li><a href="work_visa/germany-work-visa.php">MBA in Australia</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in Canada</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in Dubai</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in France</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in Germany</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in Ireland</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in Italy</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in USA</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in Malaysia</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in UK</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in New Zealand</a></li>
+                            <li><a href="tourist visa/germany-tourist-visa.php">MBA in Singapore</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- 4th -->
+                    <li class="nav-item main" x-data="{ open: false }" @mouseenter="open = true"
+                        @mouseleave="open = false">
+                        <a href="construction.php" @click.prevent="open = !open">Entrance Exams</a>
+                        <ul x-show="open" x-transition:enter="submenu-enter" x-transition:leave="submenu-leave"
+                            class="submenu">
+                            <li class="nav-item" x-data="{ open: false }" @mouseenter="open = true"
+                                @mouseleave="open = false">
+                                <a href="">MBBS <i class="fa-solid fa-angle-right float-right ml-3"></i></a>
+                                <ul x-show="open" x-transition:enter="submenu-enter" x-transition:leave="submenu-leave"
+                                    class="submenu-nested">
+                                    <li><a href="PNP/manitoba-pnp.php">NEET UG</a></li>
+                                    <li><a href="PNP/yukon-nominee-program.php">NEET PG</a></li>
+                                    <li><a href="PNP/ontario-pnp.php">AIIMS</a></li>
+                                    <li><a href="PNP/nova-scotia-pnp.php">JIPMER</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item" x-data="{ open: false }" @mouseenter="open = true"
+                                @mouseleave="open = false">
+                                <a href="">MBA <i class="fa-solid fa-angle-right float-right ml-3"></i></a>
+                                <ul x-show="open" x-transition:enter="submenu-enter" x-transition:leave="submenu-leave"
+                                    class="submenu-nested">
+                                    <li><a href="PNP/manitoba-pnp.php">CAT</a></li>
+                                    <li><a href="PNP/yukon-nominee-program.php">MAT</a></li>
+                                    <li><a href="PNP/ontario-pnp.php">CMAT</a></li>
+                                    <li><a href="PNP/nova-scotia-pnp.php">NMAT</a></li>
+                                    <li><a href="PNP/ontario-pnp.php">XAT</a></li>
+                                    <li><a href="PNP/nova-scotia-pnp.php">IBSAT</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item" x-data="{ open: false }" @mouseenter="open = true"
+                                @mouseleave="open = false">
+                                <a href="">IELTS/TOEFL <i class="fa-solid fa-angle-right float-right ml-3"></i></a>
+                                <ul x-show="open" x-transition:enter="submenu-enter" x-transition:leave="submenu-leave"
+                                    class="submenu-nested">
+                                    <li><a href="PNP/manitoba-pnp.php">IELTS</a></li>
+                                    <li><a href="PNP/yukon-nominee-program.php">TOEFL</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="PNP/yukon-nominee-program.php">GRE</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="PNP/yukon-nominee-program.php">MBBS in India</a></li>
+
+                    <li class="nav-item"><a href="PNP/yukon-nominee-program.php">MBA/PGDM in India</a></li>
+                </ul>
+
+                <a href="tel:00000000"
+                    class="text-sm rounded-md py-2 px-4 bg-white text-[#2A2F83] hover:scale-90 duration-300">Free
+                    Consultation</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Mobile Header  -->
+    <header class="w-full grid grid-cols-2 relative bg-white md:hidden">
+        <div class="p-5 col-span-1">
+            <a href="index.php"> <img src="img/logo1.png" class="w-full max-w-44 object-contain" alt=""></a>
+        </div>
+        <div class="off-screen-menu p-5" style="z-index:89">
+            <img src="img/logo1.png" class="w-full max-w-44 object-contain mx-auto" alt="">
+            <ul class="w-full mt-2 open-dropdown">
+                <li class="hover:text-[#2A2F83]  py-2"><a href="about-us.php">About Us</a></li>
+                <li class="hover:text-[#2A2F83] py-2"><a href="our-services.php">Our Services</a></li>
+                <li class="hover:text-[#2A2F83] py-2"><a href="construction.php">News</a></li>
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a class="hover:text-[#2A2F83]">Coaching</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="ielts.php" class="hover:text-[#2A2F83]">IELTS</a></li>
+                        <li><a href="toefl.php" class="hover:text-[#2A2F83]">TOEFL</a></li>
+                        <li><a href="pte.php" class="hover:text-[#2A2F83]">PTE</a></li>
+                        <li><a href="celpip.php" class="hover:text-[#2A2F83]">CELPIP</a></li>
+                    </ul>
+                </li>
+                <li class="hover:text-[#2A2F83] py-2"><a href="blogs">Blogs</a></li>
+                <li class="hover:text-[#2A2F83] py-2"><a href="contact-us.php">Contact Us</a></li>
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Canada</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="permanent-residency-visa/canada-pr-visa.php">Canada Permanent Residency Visa</a>
+                        </li>
+                        <li><a href="canada/canada-express-entry.php">Canada Express Entry</a></li>
+                        <li><a href="canada/canada-family-sponsorship.php">Canada Family Sponsorship</a></li>
+                        <!-- Add other submenu items here -->
+                        <li class="duration-700 transition-all">
+                            <div class="flex justify-between">
+                                <a href="canada/provincial-nominee-program.php" class="hover:text-[#2A2F83]">Provincial
+                                    Nominee Program (PNP)</a>
+                                <p class="hamMenuDropdown p-0.5 px-1 mr-1 rounded-md   duration-700 cursor-pointer">
+                                    <i class="fa-solid fa-circle-chevron-down"></i>
+                                </p>
+                            </div>
+                            <ul class="hamDropdownContainer pl-5">
+                                <li><a href="PNP/manitoba-pnp.php" class="hover:text-[#2A2F83]">Manitoba PNP</a></li>
+                                <li><a href="PNP/yukon-nominee-program.php" class="hover:text-[#2A2F83]">Yukon Nominee
+                                        Program</a></li>
+                                <li><a href="PNP/ontario-pnp.php" class="hover:text-[#2A2F83]">Ontario PNP Program</a>
+                                </li>
+                                <li><a href="PNP/nova-scotia-pnp.php" class="hover:text-[#2A2F83]">Nova Scotia PNP</a>
+                                </li>
+                                <li><a href="PNP/alberta-pnp.php" class="hover:text-[#2A2F83]">Alberta PNP Program</a>
+                                </li>
+                                <li><a href="PNP/british-columbia-pnp.php" class="hover:text-[#2A2F83]">British Columbia
+                                        PNP Program</a></li>
+                                <li><a href="PNP/quebec-skilled-worker-program.php" class="hover:text-[#2A2F83]">Quebec
+                                        Skilled Worker Program</a></li>
+                                <li><a href="PNP/saskatchewan-pnp.php" class="hover:text-[#2A2F83]">Saskatchewan PNP</a>
+                                </li>
+                                <li><a href="PNP/new-brunswick-pnp.php" class="hover:text-[#2A2F83]">New Brunswick PNP
+                                        Program</a></li>
+                                <li><a href="construction.php" class="hover:text-[#2A2F83]">Atlantic Immigration
+                                        Program</a></li>
+                                <li><a href="PNP/prince-edward-island-pnp.php" class="hover:text-[#2A2F83]">PEI PNP
+                                        Program</a></li>
+                                <li><a href="PNP/newfoundland-and-labrador-pnp.php" class="hover:text-[#2A2F83]">NL PNP
+                                        Program</a></li>
+                                <!-- Add other PNP submenu items here -->
+                            </ul>
+                        </li>
+                        <li><a href="canada/Atiantic-immigration-pilot.php" class="hover:text-[#2A2F83]">Atlantic
+                                Immigration Pilot</a></li>
+                        <li><a href="canada/canada-business-visa.php" class="hover:text-[#2A2F83]">Canada Business
+                                Visa</a></li>
+                        <li><a href="canada/self-employed-person-program.php" class="hover:text-[#2A2F83]">Self-employed
+                                Persons Program</a></li>
+                        <li><a href="canada/caregivers.php" class="hover:text-[#2A2F83]">Caregivers</a></li>
+                        <li><a href="canada/rural-and-northern-immigration-pilot.php" class="hover:text-[#2A2F83]">Rural
+                                and Northern Immigration Pilot</a></li>
+                        <li><a href="canada/canada-agri-food-pilot.php" class="hover:text-[#2A2F83]">Canada Agri-Food
+                                Pilot</a></li>
+                        <li><a href="canada/canada-refugees-and-asylum.php" class="hover:text-[#2A2F83]">Canada Refugees
+                                and Asylum</a></li>
+                    </ul>
+                </li>
+                <!-- 2nd -->
+                <!-- Add other submenu items here -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Australia</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="permanent-residency-visa/australia-pr-visa.php"
+                                class="hover:text-[#2A2F83]">Australia Permanent Residency Visa</a></li>
+                        <li><a href="australia/australia-skilled-migration.php" class="hover:text-[#2A2F83]">Australia
+                                Skilled Migration</a></li>
+                        <li><a href="australia/australia-employer-sponsored-visa.php"
+                                class="hover:text-[#2A2F83]">Australia Employer Sponsored Visas</a></li>
+                        <li><a href="australia/australia-family-visa.php" class="hover:text-[#2A2F83]">Australia Family
+                                Visas</a></li>
+                        <li><a href="australia/australia-student-visa.php" class="hover:text-[#2A2F83]">Australia
+                                Student Visas</a></li>
+                        <li><a href="australia/australia-subclass-482-visa.php" class="hover:text-[#2A2F83]">Australia
+                                Subclass 482 Visa</a></li>
+                    </ul>
+                </li>
+
+                <!-- 3rd -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Germany</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="work_visa/germany-work-visa.php" class="hover:text-[#2A2F83]">Job Seeker Visa</a>
+                        </li>
+                        <li><a href="tourist visa/germany-tourist-visa.php" class="hover:text-[#2A2F83]">Tourist
+                                Visa</a></li>
+                    </ul>
+                </li>
+
+                <!-- 4th -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">UK</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="work_visa/uk-work-visa.php" class="hover:text-[#2A2F83]">Work Visa</a></li>
+                        <li><a href="tourist visa/uk-tourist-visa.php" class="hover:text-[#2A2F83]">Tourist Visa</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- 5th -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Gulf Nations</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="permanent-residency-visa/canada-pr-visa.php" class="hover:text-[#2A2F83]">Canada
+                                Permanent Residency Visa</a></li>
+                        <li><a href="construction.php" class="hover:text-[#2A2F83]">Work Visa</a></li>
+                        <li><a href="tourist visa/dubai-tourist-visa.php" class="hover:text-[#2A2F83]">Tourist Visa</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <!-- 6th -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Tourist Visa</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="tourist visa/canada-tourist-visa.php" class="hover:text-[#2A2F83]">Canada Tourist
+                                Visa</a></li>
+                        <li><a href="tourist visa/australia-tourist-visa.php" class="hover:text-[#2A2F83]">Australia
+                                Tourist Visa</a></li>
+                        <li><a href="tourist visa/usa-tourist-visa.php" class="hover:text-[#2A2F83]">USA Tourist
+                                Visa</a></li>
+                        <li><a href="tourist visa/uk-tourist-visa.php" class="hover:text-[#2A2F83]">UK Tourist Visa</a>
+                        </li>
+                        <li><a href="tourist visa/germany-tourist-visa.php" class="hover:text-[#2A2F83]">Germany Tourist
+                                Visa</a></li>
+                        <li><a href="tourist visa/dubai-tourist-visa.php" class="hover:text-[#2A2F83]">Dubai Tourist
+                                Visa</a></li>
+                        <li><a href="tourist visa/italy-tourist-visa.php" class="hover:text-[#2A2F83]">Italy Tourist
+                                Visa</a></li>
+                        <li><a href="tourist visa/ireland-tourist-visa.php" class="hover:text-[#2A2F83]">Ireland Tourist
+                                Visa</a></li>
+                    </ul>
+                </li>
+
+                <!-- 7th -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Study Visa</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="study-visa/study-in-canada.php" class="hover:text-[#2A2F83]">Study In Canada</a>
+                        </li>
+                        <li><a href="study-visa/study-in-australia.php" class="hover:text-[#2A2F83]">Study In
+                                Australia</a></li>
+                        <li><a href="study-visa/study-in-germany.php" class="hover:text-[#2A2F83]">Study In Germany</a>
+                        </li>
+                        <li><a href="study-visa/study-in-italy.php" class="hover:text-[#2A2F83]">Study In Italy</a></li>
+                        <li><a href="study-visa/study-in-singapore.php" class="hover:text-[#2A2F83]">Study In
+                                Singapore</a></li>
+                        <li><a href="study-visa/study-in-uk.php" class="hover:text-[#2A2F83]">Study In UK</a></li>
+                        <li><a href="study-visa/study-in-usa.php" class="hover:text-[#2A2F83]">Study In USA</a></li>
+                        <li><a href="study-visa/study-in-newzealand.php" class="hover:text-[#2A2F83]">Study In New
+                                Zealand</a></li>
+                        <li><a href="study-visa/study-in-dubai.php" class="hover:text-[#2A2F83]">Study In Dubai</a></li>
+                        <li><a href="study-visa/study-in-ireland.php" class="hover:text-[#2A2F83]">Study In Ireland</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- 8th -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Work Permit Visa</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="work_visa/canada-work-visa.php" class="hover:text-[#2A2F83]">Canada Work Visa</a>
+                        </li>
+                        <li><a href="work_visa/australia-work-visa.php" class="hover:text-[#2A2F83]">Australia Work
+                                Visa</a></li>
+                        <li><a href="work_visa/poland-work-visa.php" class="hover:text-[#2A2F83]">Poland Work Visa</a>
+                        </li>
+                        <li><a href="work_visa/uk-work-visa.php" class="hover:text-[#2A2F83]">UK Work Visa</a></li>
+                        <li><a href="work_visa/portugal-work-visa.php" class="hover:text-[#2A2F83]">Portugal Work
+                                Visa</a></li>
+                        <li><a href="work_visa/germany-work-visa.php" class="hover:text-[#2A2F83]">Germany Work Visa</a>
+                        </li>
+                        <li><a href="work_visa/hong-kong-work-visa.php" class="hover:text-[#2A2F83]">Hong Kong Work
+                                Visa</a></li>
+                        <li><a href="work_visa/malta-work-visa.php" class="hover:text-[#2A2F83]">Malta Work Visa</a>
+                        </li>
+                        <li><a href="work_visa/new-zealand-work-visa.php" class="hover:text-[#2A2F83]">New Zealand Work
+                                Visa</a></li>
+                        <li><a href="work_visa/sweden-work-visa.php" class="hover:text-[#2A2F83]">Sweden Work Visa</a>
+                        </li>
+                        <li><a href="work_visa/austria-work-visa.php" class="hover:text-[#2A2F83]">Austria Work Visa</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- 9th -->
+                <li class="duration-700 transition-all">
+                    <div class="flex justify-between">
+                        <a href="javascript:void(0)" class="hover:text-[#2A2F83]">Permanent Residency Visa</a>
+                        <p class="hamMenuDropdown p-0.5 px-1 rounded-md   duration-700 cursor-pointer">
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                        </p>
+                    </div>
+                    <ul class="hamDropdownContainer pl-5">
+                        <li><a href="permanent-residency-visa/canada-pr-visa.php" class="hover:text-[#2A2F83]">Canada PR
+                                Visa</a></li>
+                        <li><a href="permanent-residency-visa/australia-pr-visa.php"
+                                class="hover:text-[#2A2F83]">Australia PR Visa</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <nav>
+            <div class="ham-menu" style="z-index: 90;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--banner section1 -->
+        <section>
+            <div class="swiper md:h-[80vh] h-[45vh]">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper text-white">
+                    <!-- Slides -->
+
+                    <div class="swiper-slide  w-full h-full flex items-center  max-sm:text-center lg:px-32   "
+                        style=" background: linear-gradient(90deg, rgba(0, 0, 0, 0.902), rgba(0, 0, 0, 0.233)), url(img/home/banner.jpg);">
+                        <div class="p-16 border1 max-sm:!bg-none max-sm:p-10">
+                            <h1 class="md:text-6xl font-bold max-w-[770px] text-2xl mb-5 slide-title">Working Abroad in
+                                Your Dream Country
+                            </h1>
+                            <h2 class="sm:text-xl mb-7 text-base max-w-[770px] slide-subtitle">Unlock global
+                                opportunities and work in your dream country
+                                with Nationize Visas.
+                            </h2>
+
+                            <a href="" class="max-w-min ">
+                                <div
+                                    class="px-10 py-5 overflow-hidden max-sm:scale-75 max-sm:mx-auto w-max group bg-[#344CB7] relative hover:bg-[#2A2F83]  text-white transition-all ease-out duration-300">
+                                    <span
+                                        class="absolute right-0 w-10 h-full top-0 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 -skew-x-12 group-hover:-translate-x-36 ease"></span>
+                                    <span class="relative font-semibold">Apply Now</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="swiper-slide  w-full flex items-center h-full  max-sm:text-center lg:px-32  overflow-x-hidden "
+                style=" background: linear-gradient(90deg, rgba(0, 0, 0, 0.902), rgba(0, 0, 0, 0.233)),  url(img/home/banner.jpg);">
+                <div class="p-16 border1 max-sm:!bg-none max-sm:p-10">
+                  <h1 class="md:text-6xl font-bold max-w-[770px] text-xl mb-5 slide-title" >Settle in Your Dream Country
+                  </h1>
+                  <h2 class="sm:text-xl  text-base max-w-[770px] slide-subtitle">Make your dream of living abroad a reality with Nationize
+                    Visas.
+                  </h2>
+                </div>
+              </div>
+    
+              <div class="swiper-slide  w-full h-full flex items-center  max-sm:text-center lg:px-32   "
+                style=" background: linear-gradient(90deg, rgba(0, 0, 0, 0.902), rgba(0, 0, 0, 0.233)), url(img/home/banner.jpg);">
+                <div class="p-16 border1 max-sm:!bg-none max-sm:p-10">
+                  <h1 class="md:text-6xl font-bold max-w-[770px] text-xl mb-5 slide-title" >Study Your Dream Career Abroad
+                  </h1>
+                  <h2 class="sm:text-xl  text-base max-w-[770px] slide-subtitle">Study abroad at top universities with our expert support.
+                  </h2>
+                </div>
+              </div> -->
+
+                </div>
+                <div class="swiper-button-prev font-extrabold  text-white max-sm:hidden hover:border hover:bg-opacity-30 p-8 rounded-full"
+                    id="slide-prev1"></div>
+                <div class="swiper-button-next font-extrabold  text-white max-sm:hidden hover:border  hover:bg-opacity-30 p-8 rounded-full"
+                    id="slide-next1"></div>
+
+            </div>
+
+        </section>
+
+        <!-- news slider -->
+        <div class="bg-[#CBDCEB] w-full py-1 sm:py-2 text-black overflow-hidden relative">
+            <div
+                class="md:text-xl h-full text-base mr-8 font-bold bg-[#ff0808] text-white absolute top-0 left-0 max-w-max sm:pt-2 pt-1 px-3 z-40 overflow-hidden">
+                Latest News</div>
+            <marquee behavior="" class="-pb-1" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                <a href="" class="md:text-xl text-sm mr-8 font-bold z-20">IRCC invites 5,000 Canadian Experience
+                    Class candidates</a>
+                <a href="" class="md:text-xl text-sm mr-8 font-bold z-20">Permanent residence class proposed for
+                    semi-skilled workers</a>
+                <a href="" class="md:text-xl text-sm mr-8 font-bold z-20">British Columbia and Manitoba hold Provincial
+                    Nominee Program draws</a>
+            </marquee>
+        </div>
+
+
+        <!-- section 3 - About us  -->
+        <section
+            class="w-full md:grid grid-cols-2 gap-4 md:gap-6 max-md:space-y-10 max-w-screen-2xl mx-auto p-5 md:p-20 lg:px-28 pb-3">
+            <!-- left  -->
+            <div class="relative col-span-1 group w-full">
+                <div class="hover14 w-full md:w-[80%] overflow-hidden wow animate__animated animate__fadeInLeft
+animate__slower">
+                    <img src="img/home/about3.jpg" class=" w-full shadow-lg md:h-[40rem] h-full pb-16 object-cover "
+                        alt="" />
+                </div>
+                <div class="w-max h-[13rem] md:h-[20rem] object-contain border-[10px] bottom-0 md:left-[38%] absolute border-white wow animate__animated animate__fadeInUp shadow-lg group-hover:bottom-20 duration-300
+animate__slower">
+                    <div class="hover14 overflow-hidden h-full shadow-lg">
+                        <img src="img/home/about2.jpg" class="w-full h-full  object-cover" alt="" />
+                    </div>
+                </div>
+
+            </div>
+            <!-- right  -->
+            <div class="space-y-5 max-sm:space-y-3 overflow-hidden">
+                <h3 class="text-[#2A2F83] md:text-2xl font-semibold text-lg"> About Us
+                </h3>
+                <h4 class="text-2xl sm:text-3xl md:text-5xl font-bold wow animate__animated animate__fadeInUp animate-slower
+">
+                    Best Immigration & Visa Consultants
+                </h4>
+                <p class="text-zinc-600 md:text-base font-medium wow animate__animated animate__fadeInRight
+animate__slower">
+                    Nationize Visas stands out as one of the best immigration and visa
+                    consultants due to our unmatched expertise, dedication, and success
+                    record. Our team of experienced specialists is committed to helping
+                    you navigate the complex landscape of global immigration with ease
+                    and confidence. We leverage our in-depth knowledge of immigration
+                    laws, policies, and procedures to provide tailored solutions that
+                    meet the unique needs of each client. Our comprehensive services,
+                    ranging from providing seamless immigration solutions to visa
+                    documentation, ensure that you are well-supported at every stage of
+                    the process.
+                </p>
+                <img src="img/home/award.webp" class="w-full mx-auto md:mb-12 mb-4" alt="">
+            </div>
+        </section>
+
+        <!-- choose your country -->
+        <section class="lg:px-28  sm:p-16 p-4 text-center bg-[#cbdcebad]">
+            <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-6 mb-2 text-lg">Choose your country</h4>
+            <h2 class="font-bold sm:text-4xl  mb-2 text-2xl md:text-5xl max-w-4xl mx-auto">
+                Study MBBS in Your Dream Country
+            </h2>
+            <p class="text-zinc-600 md:text-base max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+                as.
+            </p>
+            <div class="swiper2 mt-8 sm:mt-20 overflow-x-hidden relative pb-14 md:mb-24">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/bangl-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/bangladesh.webp"
+                                class="w-full h-full group-hover:rotate-90 duration-300" alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Bangladesh</h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/georg-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/georgia.webp" class="w-full h-full group-hover:rotate-90 duration-300"
+                                alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Georgia</h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/kaza-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/kazakhstan.webp"
+                                class="w-full h-full group-hover:rotate-90 duration-300" alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Kazaksthan</h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/kry-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/krygsthan.webp"
+                                class="w-full h-full group-hover:rotate-90 duration-300" alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Krygsthan </h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/mari-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/maritius.webp"
+                                class="w-full h-full group-hover:rotate-90 duration-300" alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Mauritius</h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/nepa-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 bg-white border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/nepal.webp" class="w-full h-full group-hover:rotate-90 duration-300"
+                                alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Nepal</h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/russia-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/russia.webp" class="w-full h-full group-hover:rotate-90 duration-300"
+                                alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Russia</h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
+                        <div class="w-full sm:h-72 h-44 overflow-hidden">
+                            <img src="img/country/uzbe-img.webp"
+                                class="w-full h-full object-cover group-hover:scale-110 duration-300" alt="">
+                        </div>
+                        <div
+                            class="md:w-16 md:h-16 w-14 h-14 border-4 border-white rounded-full overflow-hidden shadow-xl mx-auto sticky  -mt-7">
+                            <img src="img/country/uzbekistan.webp"
+                                class="w-full h-full group-hover:rotate-90 duration-300" alt="">
+                        </div>
+                        <div class=" w-full ">
+                            <h3 class="sm:text-2xl text-lg font-bold mt-2 mb-5 mx-2">Uzbekistan</h3>
+                            <a href="">
+                                <div
+                                    class="bg-[#00056d] w-full text-base font-semibold text-white group-hover:bg-zinc-900 text-center p-3 duration-300 cursor-pointer">
+                                    Apply Now &nbsp;→</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+        </section>
+
+        <!-- count down -->
+        <section
+            class="lg:px-24 sm:p-12 px-2 py-6 md:-mt-24 md:stickey bg-[#344CB7] flex max-w-screen-xl mx-auto lg:rounded-[50px] flex-wrap items-stretch justify-center sm:gap-y-9 gap-3 sm:justify-between">
+            <div
+                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+                <div class="group-hover:-mt-8 duration-300">
+                    <i class="bi bi-calendar2-date text-2xl sm:text-3xl"></i>
+                </div>
+                <div>
+                    <h3 class="sm:text-4xl text-xl font-bold mb-1">19+</h3>
+                    <p class="sm:text-base text-sm">Years of Experience
+
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+                <div class="group-hover:-mt-8 duration-300">
+                    <i class="bi bi-people text-2xl sm:text-3xl"></i>
+                </div>
+                <div>
+                    <h3 class="sm:text-4xl text-xl font-bold mb-1">600+
+                    </h3>
+                    <p class="sm:text-base text-sm">Total Tie-Ups
+
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+                <div class="group-hover:-mt-8 duration-300">
+                    <i class="bi bi-mortarboard text-2xl sm:text-3xl"></i>
+                </div>
+                <div>
+                    <h3 class="sm:text-4xl text-xl font-bold mb-1">100000+</h3>
+                    <p class="sm:text-base text-sm">Student Counselled</p>
+                </div>
+            </div>
+
+            <div
+                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+                <div class="group-hover:-mt-8 duration-300">
+                    <i class="bi bi-building-fill-check text-2xl sm:text-3xl"></i>
+                </div>
+                <div>
+                    <h3 class="sm:text-4xl text-xl font-bold mb-1">5000+</h3>
+                    <p class="sm:text-base text-sm">Student Admission
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- service we offer -->
+        <section class="lg:px-28  sm:p-16 p-4 text-center ">
+            <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-6 mb-2 text-lg">Choose your country</h4>
+            <h2 class="font-bold sm:text-4xl  mb-2 text-2xl md:text-5xl max-w-4xl mx-auto">
+                Study MBBS in Your Dream Country
+            </h2>
+            <p class="text-zinc-600 md:text-base max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+                as.
+            </p>
+            <div
+                class="flex justify-between flex-wrap mt-8 sm:mt-20 overflow-x-hidden md:gap-y-5 gap-y-3 relative pb-14 md:mb-24">
+
+                <!-- Slides -->
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+                
+                
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="swiper.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
