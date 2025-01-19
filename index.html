@@ -173,19 +173,24 @@
                     <li class="nav-item"><a href="PNP/yukon-nominee-program.php">MBA/PGDM in India</a></li>
                 </ul>
 
-                <a href="tel:00000000"
-                    class="text-sm rounded-md py-2 px-4 bg-white text-[#2A2F83] hover:scale-90 duration-300">Free
-                    Consultation</a>
+                <a href="" class="max-w-min ">
+                    <div
+                        class="px-10 py-2 overflow-hidden max-sm:scale-75  w-max group bg-[#2976A4] relative hover:bg-black  text-white transition-all ease-out duration-300">
+                        <span
+                            class="absolute right-0 w-10 h-full top-0 transition-all duration-1000 transform translate-x-12 bg-white opacity-30 -skew-x-12 group-hover:-translate-x-36 ease"></span>
+                        <span class="relative font-semibold">Apply Now</span>
+                    </div>
+                </a>
             </nav>
         </div>
     </header>
     <!-- Mobile Header  -->
     <header class="w-full grid grid-cols-2 relative bg-white md:hidden">
         <div class="p-5 col-span-1">
-            <a href="index.php"> <img src="img/logo1.png" class="w-full max-w-44 object-contain" alt=""></a>
+            <a href="index.php"> <img src="img/logo.svg" class="w-full max-w-32 object-contain" alt=""></a>
         </div>
         <div class="off-screen-menu p-5" style="z-index:89">
-            <img src="img/logo1.png" class="w-full max-w-44 object-contain mx-auto" alt="">
+            <img src="img/logo.svg" class="w-full max-w-32 object-contain mx-auto" alt="">
             <ul class="w-full mt-2 open-dropdown">
                 <li class="hover:text-[#2A2F83]  py-2"><a href="about-us.php">About Us</a></li>
                 <li class="hover:text-[#2A2F83] py-2"><a href="our-services.php">Our Services</a></li>
@@ -448,7 +453,7 @@
             </ul>
         </div>
         <nav>
-            <div class="ham-menu" style="z-index: 90;">
+            <div class="ham-menu mr-3 mt-3" style="z-index: 90;">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -462,22 +467,23 @@
             <div class="swiper md:h-[80vh] h-[45vh]">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper text-white">
-                    <!-- Slides -->
+                    
 
                     <div class="swiper-slide  w-full h-full flex items-center  max-sm:text-center lg:px-32   "
                         style=" background: linear-gradient(90deg, rgba(0, 0, 0, 0.902), rgba(0, 0, 0, 0.233)), url(img/home/banner.jpg);">
                         <div class="p-16 border1 max-sm:!bg-none max-sm:p-10">
-                            <h1 class="md:text-6xl font-bold max-w-[770px] text-2xl mb-5 slide-title">Working Abroad in
+                            <h1 class="md:text-6xl font-bold max-w-[770px] text-3xl md:mb-5 mb-3 slide-title">Working
+                                Abroad in
                                 Your Dream Country
                             </h1>
-                            <h2 class="sm:text-xl mb-7 text-base max-w-[770px] slide-subtitle">Unlock global
+                            <h2 class="sm:text-xl md:mb-7 mb-4 text-base max-w-[770px] slide-subtitle">Unlock global
                                 opportunities and work in your dream country
                                 with Nationize Visas.
                             </h2>
 
                             <a href="" class="max-w-min ">
                                 <div
-                                    class="px-10 py-5 overflow-hidden max-sm:scale-75 max-sm:mx-auto w-max group bg-[#344CB7] relative hover:bg-[#2A2F83]  text-white transition-all ease-out duration-300">
+                                    class="px-10 py-5 overflow-hidden max-sm:scale-75 max-sm:mx-auto w-max group bg-[#2976A4] relative hover:bg-[#2A2F83]  text-white transition-all ease-out duration-300">
                                     <span
                                         class="absolute right-0 w-10 h-full top-0 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 -skew-x-12 group-hover:-translate-x-36 ease"></span>
                                     <span class="relative font-semibold">Apply Now</span>
@@ -518,35 +524,42 @@
         </section>
 
         <!-- news slider -->
-        <div class="bg-[#CBDCEB] w-full py-1 sm:py-2 text-black overflow-hidden relative">
+        <div id="marqueeContainer" class="bg-[#CBDCEB] w-full py-1 sm:py-2 text-black overflow-hidden relative">
             <div
                 class="md:text-xl h-full text-base mr-8 font-bold bg-[#ff0808] text-white absolute top-0 left-0 max-w-max sm:pt-2 pt-1 px-3 z-40 overflow-hidden">
                 Latest News</div>
-            <marquee behavior="" class="-pb-1" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+            <div id="marqueeContent" class="whitespace-nowrap inline-block z-20">
                 <a href="" class="md:text-xl text-sm mr-8 font-bold z-20">IRCC invites 5,000 Canadian Experience
                     Class candidates</a>
                 <a href="" class="md:text-xl text-sm mr-8 font-bold z-20">Permanent residence class proposed for
                     semi-skilled workers</a>
                 <a href="" class="md:text-xl text-sm mr-8 font-bold z-20">British Columbia and Manitoba hold Provincial
                     Nominee Program draws</a>
-            </marquee>
+            </div>
         </div>
 
 
         <!-- section 3 - About us  -->
         <section
-            class="w-full md:grid grid-cols-2 gap-4 md:gap-6 max-md:space-y-10 max-w-screen-2xl mx-auto p-5 md:p-20 lg:px-28 pb-3">
+            class="w-full md:grid grid-cols-2 gap-4 md:gap-6 max-md:space-y-10 max-w-screen-2xl mx-auto p-5 md:p-20 lg:px-28 pb-7">
             <!-- left  -->
-            <div class="relative col-span-1 group w-full">
-                <div class="hover14 w-full md:w-[80%] overflow-hidden wow animate__animated animate__fadeInLeft
-animate__slower">
-                    <img src="img/home/about3.jpg" class=" w-full shadow-lg md:h-[40rem] h-full pb-16 object-cover "
-                        alt="" />
+            <div class="swiper3 hover14  col-span-1 group w-full relative overflow-hidden max-w-lg">
+                <div class=" swiper-wrapper w-full md:h-[40rem] h-full ">
+                    <img src="img/home/about3.jpg" class="swiper-slide w-full  h-full pb-16 object-cover " alt="" />
+                    <img src="img/home/about2.jpg" class="swiper-slide w-full  h-full pb-16 object-cover " alt="" />
+                    <img src="img/home/about4.jpg" class="swiper-slide w-full  h-full pb-16 object-cover " alt="" />
+                    <img src="img/home/about1.jpg" class="swiper-slide w-full   h-full pb-16 object-cover " alt="" />
                 </div>
-                <div class="w-max h-[13rem] md:h-[20rem] object-contain border-[10px] bottom-0 md:left-[38%] absolute border-white wow animate__animated animate__fadeInUp shadow-lg group-hover:bottom-20 duration-300
+                <div class=" h-[13rem] md:h-[20rem] md:w-72 w-44 left-0 object-contain border-[10px] bottom-0 md:left-[40%] absolute z-50 border-white wow animate__animated animate__fadeInUp shadow-lg group-hover:bottom-20 duration-300
 animate__slower">
-                    <div class="hover14 overflow-hidden h-full shadow-lg">
-                        <img src="img/home/about2.jpg" class="w-full h-full  object-cover" alt="" />
+                    <div class="swiper3 hover14 col-span-1 group w-full h-full relative overflow-hidden max-w-lg">
+                        <div class=" swiper-wrapper w-full h-full ">
+
+                            <img src="img/home/about2.jpg" class="swiper-slide w-full  h-full object-cover " alt="" />
+                            <img src="img/home/about4.jpg" class="swiper-slide w-full  h-full object-cover " alt="" />
+                            <img src="img/home/about1.jpg" class="swiper-slide w-full  h-full object-cover " alt="" />
+                            <img src="img/home/about3.jpg" class="swiper-slide w-full  h-full object-cover " alt="" />
+                        </div>
                     </div>
                 </div>
 
@@ -559,7 +572,7 @@ animate__slower">
 ">
                     Best Immigration & Visa Consultants
                 </h4>
-                <p class="text-zinc-600 md:text-base font-medium wow animate__animated animate__fadeInRight
+                <p class="text-zinc-600 md:text-lg font-medium wow animate__animated animate__fadeInRight
 animate__slower">
                     Nationize Visas stands out as one of the best immigration and visa
                     consultants due to our unmatched expertise, dedication, and success
@@ -577,19 +590,19 @@ animate__slower">
         </section>
 
         <!-- choose your country -->
-        <section class="lg:px-28  sm:p-16 p-4 text-center bg-[#cbdcebad]">
-            <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-6 mb-2 text-lg">Choose your country</h4>
-            <h2 class="font-bold sm:text-4xl  mb-2 text-2xl md:text-5xl max-w-4xl mx-auto">
+        <section class="lg:px-28  sm:p-16 px-4 py-7 text-center bg-[#dce7f169]">
+            <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-3  text-lg">Choose your country</h4>
+            <h2 class="font-bold sm:text-4xl px-7  text-2xl md:text-5xl max-w-4xl mx-auto">
                 Study MBBS in Your Dream Country
             </h2>
-            <p class="text-zinc-600 md:text-base max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+            <p class="text-zinc-600 md:text-lg max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
                 as.
             </p>
-            <div class="swiper2 mt-8 sm:mt-20 overflow-x-hidden relative pb-14 md:mb-24">
+            <div class="swiper2 mt-7 sm:mt-16 overflow-x-hidden relative pb-14 md:mb-24">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
+                    
                     <div class="swiper-slide group rounded-lg overflow-hidden bg-white">
                         <div class="w-full sm:h-72 h-44 overflow-hidden">
                             <img src="img/country/bangl-img.webp"
@@ -760,242 +773,71 @@ animate__slower">
 
         <!-- count down -->
         <section
-            class="lg:px-24 sm:p-12 px-2 py-6 md:-mt-24 md:stickey bg-[#344CB7] flex max-w-screen-xl mx-auto lg:rounded-[50px] flex-wrap items-stretch justify-center sm:gap-y-9 gap-3 sm:justify-between">
-            <div
-                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
-                <div class="group-hover:-mt-8 duration-300">
-                    <i class="bi bi-calendar2-date text-2xl sm:text-3xl"></i>
-                </div>
-                <div>
-                    <h3 class="sm:text-4xl text-xl font-bold mb-1">19+</h3>
-                    <p class="sm:text-base text-sm">Years of Experience
+  class="lg:px-24 sm:p-12 px-2 py-6 md:-mt-24 md:stickey bg-[#2976A4] flex max-w-screen-xl mx-auto lg:rounded-[50px] flex-wrap items-stretch justify-center sm:gap-y-9 gap-3 sm:justify-between">
+  
+  <div
+    class="group bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+    <div class="group-hover:-mt-8 duration-300">
+      <i class="bi bi-calendar2-date text-2xl sm:text-3xl"></i>
+    </div>
+    <div>
+      <h3 class="sm:text-4xl text-xl font-bold mb-1 progress-number" data-progress="19">0+</h3>
+      <p class="sm:text-base text-sm">Years of Experience</p>
+    </div>
+  </div>
 
-                    </p>
-                </div>
-            </div>
+  <div
+    class="group bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+    <div class="group-hover:-mt-8 duration-300">
+      <i class="bi bi-people text-2xl sm:text-3xl"></i>
+    </div>
+    <div>
+      <h3 class="sm:text-4xl text-xl font-bold mb-1 progress-number" data-progress="600">0+</h3>
+      <p class="sm:text-base text-sm">Total Tie-Ups</p>
+    </div>
+  </div>
 
-            <div
-                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
-                <div class="group-hover:-mt-8 duration-300">
-                    <i class="bi bi-people text-2xl sm:text-3xl"></i>
-                </div>
-                <div>
-                    <h3 class="sm:text-4xl text-xl font-bold mb-1">600+
-                    </h3>
-                    <p class="sm:text-base text-sm">Total Tie-Ups
+  <div
+    class="group bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+    <div class="group-hover:-mt-8 duration-300">
+      <i class="bi bi-mortarboard text-2xl sm:text-3xl"></i>
+    </div>
+    <div>
+      <h3 class="sm:text-4xl text-xl font-bold mb-1 progress-number" data-progress="100000">0+</h3>
+      <p class="sm:text-base text-sm">Student Counselled</p>
+    </div>
+  </div>
 
-                    </p>
-                </div>
-            </div>
+  <div
+    class="group bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
+    <div class="group-hover:-mt-8 duration-300">
+      <i class="bi bi-building-fill-check text-2xl sm:text-3xl"></i>
+    </div>
+    <div>
+      <h3 class="sm:text-4xl text-xl font-bold mb-1 progress-number" data-progress="5000">0+</h3>
+      <p class="sm:text-base text-sm">Student Admission</p>
+    </div>
+  </div>
 
-            <div
-                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
-                <div class="group-hover:-mt-8 duration-300">
-                    <i class="bi bi-mortarboard text-2xl sm:text-3xl"></i>
-                </div>
-                <div>
-                    <h3 class="sm:text-4xl text-xl font-bold mb-1">100000+</h3>
-                    <p class="sm:text-base text-sm">Student Counselled</p>
-                </div>
-            </div>
+</section>
 
-            <div
-                class="group  bg-[#ffffff21] rounded-xl p-4 sm:px-7 text-white items-center w-[48%] md:w-[23%] flex sm:gap-7 gap-4 justify-center sm:max-w-max">
-                <div class="group-hover:-mt-8 duration-300">
-                    <i class="bi bi-building-fill-check text-2xl sm:text-3xl"></i>
-                </div>
-                <div>
-                    <h3 class="sm:text-4xl text-xl font-bold mb-1">5000+</h3>
-                    <p class="sm:text-base text-sm">Student Admission
-
-                    </p>
-                </div>
-            </div>
-        </section>
+      
+      
 
         <!-- service we offer -->
-        <section class="lg:px-28  sm:p-16 p-4 text-center ">
-            <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-6 mb-2 text-lg">Choose your country</h4>
-            <h2 class="font-bold sm:text-4xl  mb-2 text-2xl md:text-5xl max-w-4xl mx-auto">
+        <section class="lg:px-28 md:p-20 sm:p-16 px-4 py-7 text-center ">
+            <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-3  text-lg">Choose your country</h4>
+            <h2 class="font-bold sm:text-4xl px-7  text-2xl md:text-5xl max-w-4xl mx-auto">
                 Study MBBS in Your Dream Country
             </h2>
-            <p class="text-zinc-600 md:text-base max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+            <p class="text-zinc-600 md:text-lg max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
                 as.
             </p>
             <div
-                class="flex justify-between flex-wrap mt-8 sm:mt-20 overflow-x-hidden md:gap-y-5 gap-y-3 relative pb-14 md:mb-24">
+                class="flex justify-between flex-wrap mt-3 sm:mt-16 overflow-x-hidden md:gap-y-5 gap-y-3 relative pb-8">
 
-                <!-- Slides -->
-                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
-                    <div class="image sm:h-64 h-36">
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                    </div>
-
-
-                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
-                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
-                            dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
-                            services to meet your specific needs and help you achieve your
-                            goals abroad.
-                        </p>
-                        <hr class="my-3">
-
-                        <a href=""
-                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
-                            More&nbsp;→</a>
-                    </div>
-                </div>
-
-                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
-                    <div class="image sm:h-64 h-36">
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                    </div>
-
-
-                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
-                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
-                            dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
-                            services to meet your specific needs and help you achieve your
-                            goals abroad.
-                        </p>
-                        <hr class="my-3">
-
-                        <a href=""
-                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
-                            More&nbsp;→</a>
-                    </div>
-                </div>
-
-                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
-                    <div class="image sm:h-64 h-36">
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                    </div>
-
-
-                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
-                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
-                            dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
-                            services to meet your specific needs and help you achieve your
-                            goals abroad.
-                        </p>
-                        <hr class="my-3">
-
-                        <a href=""
-                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
-                            More&nbsp;→</a>
-                    </div>
-                </div>
-
-                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
-                    <div class="image sm:h-64 h-36">
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                    </div>
-
-
-                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
-                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
-                            dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
-                            services to meet your specific needs and help you achieve your
-                            goals abroad.
-                        </p>
-                        <hr class="my-3">
-
-                        <a href=""
-                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
-                            More&nbsp;→</a>
-                    </div>
-                </div>
-
-                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
-                    <div class="image sm:h-64 h-36">
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                    </div>
-
-
-                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
-                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
-                            dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
-                            services to meet your specific needs and help you achieve your
-                            goals abroad.
-                        </p>
-                        <hr class="my-3">
-
-                        <a href=""
-                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
-                            More&nbsp;→</a>
-                    </div>
-                </div>
-                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
-                    <div class="image sm:h-64 h-36">
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                        <div class="service-featured-img">
-                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
-                                alt="">
-                        </div>
-                    </div>
-
-
-                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
-                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
-                            dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
-                            services to meet your specific needs and help you achieve your
-                            goals abroad.
-                        </p>
-                        <hr class="my-3">
-
-                        <a href=""
-                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
-                            More&nbsp;→</a>
-                    </div>
-                </div>
                 
-                
-
                 <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
                     <div class="image sm:h-64 h-36">
                         <div class="service-featured-img">
@@ -1012,7 +854,7 @@ animate__slower">
                     <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
                         <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
                             dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
                             services to meet your specific needs and help you achieve your
                             goals abroad.
                         </p>
@@ -1040,7 +882,176 @@ animate__slower">
                     <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
                         <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
                             dollar</h3>
-                        <p class="sm:text-base !leading-[1.3] text-zinc-600 text-left text-xs">Comprehensive immigration
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                        <hr class="my-3">
+
+                        <a href=""
+                            class="text-[#2A2F83] font-bold hover:border-b pb-1 duration-300 border-[#2A2F83] ">Read
+                            More&nbsp;→</a>
+                    </div>
+                </div>
+
+                <div class="shadow-xl card1 lg:w-[23%] md:w-[32%] w-[48%]  mt-4 h-auto pb-4  bg-white overflow-hidden ">
+                    <div class="image sm:h-64 h-36">
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                        <div class="service-featured-img">
+                            <img loading="lazy" decoding="async" src="img/home/banner.jpg" width="500" height="300"
+                                alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="w-[90%] ml-[5%]  text-zinc-900 font-medium ">
+                        <h3 class="text-left !leading-[1.3] sm:text-xl text-lg font-bold my-2">Service1 lorem ipsum
+                            dollar</h3>
+                        <p class="sm:text-base !leading-[1.3] text-zinc-500 text-left text-xs">Comprehensive immigration
                             services to meet your specific needs and help you achieve your
                             goals abroad.
                         </p>
@@ -1057,12 +1068,845 @@ animate__slower">
         </section>
 
 
+        <!-- process of application -->
+        <section class="lg:px-28  sm:p-16 px-4 py-7 text-center bg-[#dce7f169]">
+            <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-3  text-lg">Choose your country</h4>
+            <h2 class="font-bold sm:text-4xl px-7  text-2xl md:text-5xl max-w-4xl mx-auto">
+                Study MBBS in Your Dream Country
+            </h2>
+            <p class="text-zinc-600 md:text-lg max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+                as.
+            </p>
+            <div
+                class="flex justify-between items-stretch flex-wrap mt-6 sm:mt-16 overflow-x-hidden md:gap-y-5 gap-y-3 relative pb-8">
+
+                
+                <div class=" lg:w-[23%] md:w-[32%] w-[48%]  py-4 group ">
+                    <div class="sm:h-20 sm:w-20 mx-auto duration-300 group-hover:scale-110 h-12 w-12 shadow-lg flex items-center justify-center rounded-full bg-white md:mb-7 mb-4">
+                        <p class="font-bold text-2xl sm:text-3xl text-[#2A2F83]">01</p>
+                    </div>
+
+                    <div class="w-full text-center text-zinc-900 font-medium ">
+                        <h3 class=" !leading-[1.3] sm:text-2xl text-xl font-bold mb-3">Service1 lorem ipsum
+                            </h3>
+                        <p class="sm:text-lg !leading-[1.3] text-zinc-500 text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                    </div>
+                </div>
+
+                 
+                 <div class=" lg:w-[23%] md:w-[32%] w-[48%]  py-4 group ">
+                                      <div class="w-full text-center text-zinc-900 font-medium ">
+                        <h3 class=" !leading-[1.3] sm:text-2xl text-xl font-bold mb-3">Service1 lorem ipsum
+                            </h3>
+                        <p class="sm:text-lg !leading-[1.3] text-zinc-500 text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                    </div>
+                    <div class="sm:h-20 sm:w-20 mx-auto duration-300 group-hover:scale-110 h-12 w-12 shadow-lg flex items-center justify-center rounded-full bg-white md:mt-7 mt-4">
+                        <p class="font-bold text-2xl sm:text-3xl text-[#2A2F83]">02</p>
+                    </div>
+                </div>
+
+                 
+                 <div class=" lg:w-[23%] md:w-[32%] w-[48%]  py-4 group ">
+                    <div class="sm:h-20 sm:w-20 mx-auto duration-300 group-hover:scale-110 h-12 w-12 shadow-lg flex items-center justify-center rounded-full bg-white md:mb-7 mb-4">
+                        <p class="font-bold text-2xl sm:text-3xl text-[#2A2F83]">03</p>
+                    </div>
+
+                    <div class="w-full text-center text-zinc-900 font-medium ">
+                        <h3 class=" !leading-[1.3] sm:text-2xl text-xl font-bold mb-3">Service1 lorem ipsum
+                            </h3>
+                        <p class="sm:text-lg !leading-[1.3] text-zinc-500 text-xs">Comprehensive immigration
+                            services to meet your specific needs and help you achieve your
+                            goals abroad.
+                        </p>
+                    </div>
+                </div>
+
+                     
+                     <div class=" lg:w-[23%] md:w-[32%] w-[48%]  py-4 group ">
+                        <div class="w-full text-center text-zinc-900 font-medium ">
+          <h3 class=" !leading-[1.3] sm:text-2xl text-xl font-bold mb-3">Service1 lorem ipsum
+              </h3>
+          <p class="sm:text-lg !leading-[1.3] text-zinc-500 text-xs">Comprehensive immigration
+              services to meet your specific needs and help you achieve your
+              goals abroad.
+          </p>
+      </div>
+      <div class="sm:h-20 sm:w-20 mx-auto duration-300 group-hover:scale-110 h-12 w-12 shadow-lg flex items-center justify-center rounded-full bg-white mt-4 md:mt-7">
+          <p class="font-bold text-2xl sm:text-3xl text-[#2A2F83]">04</p>
+      </div>
+  </div>
+
+            </div>
+        </section>
 
 
+        <!-- why choose -->
+        <section class="lg:px-28 md:p-20 sm:p-16 p-4  py-7">
+            <div class="flex justify-between max-w-screen-2xl mx-auto flex-wrap  overflow-x-hidden md:gap-y-5 gap-y-3 ">
+                <div class="md:w-[45%] w-full space-y-3 md:space-y-5">
+                    <h3 class="text-[#2A2F83] md:text-2xl font-semibold text-lg">Why Choose Us
+                    </h3>
+                    <h4 class="text-2xl sm:text-3xl md:text-5xl font-bold wow animate__animated animate__fadeInUp animate-slower
+">
+                        Best Immigration & Visa Consultants
+                    </h4>
+                    <p class="text-zinc-600 md:text-lg font-medium wow animate__animated animate__fadeInRight
+animate__slower">
+                        Nationize Visas stands out as one of the best immigration and visa
+                        consultants due to our unmatched expertise, dedication, and success
+                        record. Our team of experienced specialists is committed to helping
+                        you navigate the complex
+                    </p>
+                    <div class="wow animate__animated animate__fadeInRight
+            animate__slower " data-wow-delay="0.5s">
+                        <div class=" space-y-5 md:!mt-9 ">
+                            <div class="flex gap-4 border-b border-zinc-300 pb-5 group mb-5">
+                                <i
+                                    class="fa-duotone fa-solid fa-headset text-[#2976A4] duration-300 group-hover:mt-12  text-5xl mr-4"></i>
+                                <div class="space-y-2">
+                                    <p
+                                        class="sm:text-xl text-lg font-bold group-hover:text-[#FF0808] group-hover:-ml-9 duration-300">
+                                        Expertise and Personalised Support
+                                    </p>
+                                    <p class="text-zinc-600">
+                                        Our seasoned professionals provide customised solutions and
+                                        thorough support, ensuring your unique immigration needs are
+                                        met with the highest level of expertise.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 border-b border-zinc-300 pb-5 group mb-5">
+                                <i
+                                    class="fa-duotone fa-solid fa-headset text-[#2976A4] duration-300 group-hover:mt-12  text-5xl mr-4"></i>
+                                <div class="space-y-2">
+                                    <p
+                                        class="sm:text-xl group-hover:text-[#FF0808] text-lg font-bold group-hover:-ml-9 duration-300">
+                                        Expertise and Personalised Support
+                                    </p>
+                                    <p class="text-zinc-600">
+                                        Our seasoned professionals provide customised solutions and
+                                        thorough support, ensuring your unique immigration needs are
+                                        met with the highest level of expertise.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+
+                <div class="md:w-[51%] w-full pb-7 overflow-hidden min-h-96">
+                    <div class="relative group w-full h-full overflow-hidden hover14">
+                        <img src="img/home/about4.jpg"
+                            class="w-[68%] h-full border-8  rounded-2xl shadow-xl border-white object-cover absolute top-0 right-0 wow animate__animated animate__fadeInUp"
+                            alt="">
+                        <img src="img/home/about2.jpg"
+                            class="w-[44%] h-[52%] border-8 shadow-xl rounded-2xl border-white object-cover  duration-500 group-hover:top-[50%] group-hover:left-[60%] absolute top-4 left-0"
+                            alt="">
+
+                        <img src="img/home/about3.jpg"
+                            class="w-[44%] h-[44%] border-8 rounded-2xl shadow-xl border-white  object-cover absolute -bottom-5 duration-300 transition-all left-12 group-hover:bottom-[45%] group-hover:left-3 wow animate__animated animate__fadeInLeft"
+                            alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+ <!-- Testimonials Video-->
+  <section class="lg:px-28 md:p-20 sm:p-16 px-4 py-7 text-center bg-[#dce7f169]">
+    <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-3  text-lg">Choose your country</h4>
+    <h2 class="font-bold sm:text-4xl px-7  text-2xl md:text-5xl max-w-4xl mx-auto">
+        Study MBBS in Your Dream Country
+    </h2>
+    <p class="text-zinc-600 md:text-lg max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+        as.
+    </p>
+    <div
+        class="flex justify-between flex-wrap mt-3 sm:mt-16 overflow-x-hidden md:gap-y-5 gap-y-3 relative pb-8">
+
+        
+        <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+                    
+            <iframe width="100%" height="250"
+                src="https://www.youtube.com/embed/funUHYzd1tk?si=Qn7bAZbVedefLMG7"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+
+    <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+        
+            <iframe width="100%" height="250"
+                src="https://www.youtube.com/embed/Oi71tkevef0?si=FUw7U4slEjXEhyKa"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+
+    <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+        
+            <iframe width="100%" height="250"
+                src="https://www.youtube.com/embed/_IKRN1i29H4?si=myxsxDfKVSBtLx3c"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+
+    <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+        
+            <iframe width="100%" height="250"
+                src="https://www.youtube.com/embed/5eAGpxfqGcg?si=cjUker7uDSsTIitv"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+    <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+                    
+        <iframe width="100%" height="250"
+            src="https://www.youtube.com/embed/funUHYzd1tk?si=Qn7bAZbVedefLMG7"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</div>
+
+<div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+    
+        <iframe width="100%" height="250"
+            src="https://www.youtube.com/embed/Oi71tkevef0?si=FUw7U4slEjXEhyKa"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</div>
+
+<div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+    
+        <iframe width="100%" height="250"
+            src="https://www.youtube.com/embed/_IKRN1i29H4?si=myxsxDfKVSBtLx3c"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</div>
+
+<div class="w-full sm:w-[48%] md:w-[31%] lg:w-[23%]">
+    
+        <iframe width="100%" height="250"
+            src="https://www.youtube.com/embed/5eAGpxfqGcg?si=cjUker7uDSsTIitv"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</div>
+
+    </div>
+
+</section> 
+
+
+<!-- faqs -->
+
+<section class="lg:px-28 md:p-20 sm:p-16 px-4 py-7 flex flex-wrap max-md:items-center justify-between  max-w-screen-2xl mx-auto">
+    <div class="lg:w-[47%] w-full max-md:flex max-md:items-center max-md:flex-col">
+        <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-3 max-sm:px-7 max-sm:text-center text-lg">Choose your country</h4>
+        <h2 class="font-bold sm:text-4xl max-sm:px-7 max-sm:text-center text-2xl md:text-5xl max-w-4xl mx-auto">
+            Study MBBS in Your Dream Country
+        </h2>
+        <p class="text-zinc-600 md:text-lg max-w-4xl max-sm:px-7 sm:my-5 max-sm:text-center font-medium">Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+            as.
+        </p>
+      <!-- progress bar -->
+      <div class="my-5 flex  lg:justify-between items-center gap-5 mt-4">
+        <div class="my-5 flex max-sm:flex-col  items-center gap-3 ">
+          <div class="progress-circle" data-progress="90">
+            <div class="progress-circle-inner">
+              <div class="progress-circle-value">0%</div>
+            </div>
+          </div>
+          <h3 class="md:text-2xl text-lg font-bold outfit max-sm:text-center">Client <br> Satishfied</h3>
+        </div>
+
+        <div class="my-5 flex max-sm:flex-col  items-center gap-3 ">
+          <div class="progress-circle" data-progress="95">
+            <div class="progress-circle-inner">
+              <div class="progress-circle-value">0%</div>
+            </div>
+          </div>
+          <h3 class="md:text-2xl text-lg font-bold outfit max-sm:text-center">Visa  <br> Success</h3>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-[47%] w-full max-lg:mt-3 overflow-hidden">
+      <div class="faq wow animate__animated animate__fadeInRight animate-slower" >
+        <div class="faq-item p-4 mb-3 shadow-xl">
+          <div class="question ">
+            <h3 class="md:text-xl text-lg font-bold">What services does Nationize Visas provide?</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="answer">
+            <hr class="my-3">
+            We offer a range of services including immigration consultancy, profile marketing, career counseling, and
+            IELTS preparation.<br>
+          </div>
+        </div>
+        <div class="active faq-item p-4 mb-3 shadow-xl">
+          <div class="question ">
+            <h3 class="md:text-xl text-lg font-bold">How do I know if I am eligible for immigration?</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="answer ">
+            <hr class="my-3">
+            Our expert consultants will assess your profile and provide a detailed eligibility report based on your
+            chosen country’s immigration criteria.<br>
+          </div>
+        </div>
+        <div class="faq-item p-4 mb-3 shadow-xl">
+          <div class="question ">
+            <h3 class="md:text-xl text-lg font-bold">What documents are required for the immigration process?</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="answer">
+            <hr class="my-3">
+            The required documents vary by country and visa type. Generally, you will need identification documents,
+            educational and professional certificates, and proof of financial stability.<br>
+          </div>
+        </div>
+        <div class="faq-item p-4 mb-3 shadow-xl">
+          <div class="question ">
+            <h3 class="md:text-xl text-lg font-bold">How long does the immigration process take?</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="answer">
+            <hr class="my-3">
+            The duration varies depending on the country and visa category. We provide an estimated timeline during
+            your initial consultation.<br>
+          </div>
+        </div>
+
+        <div class="faq-item p-4 mb-3 shadow-xl">
+          <div class="question ">
+            <h3 class="md:text-xl text-lg font-bold">Why should I choose Nationize Visas?</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="answer">
+            <hr class="my-3">
+            We offer personalized, transparent, and effective immigration services with a high success rate and client
+            satisfaction.<br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- testimonial -->
+   <section class="lg:px-28  sm:p-16 p-7 text-center bg-[#dce7f1d7]">
+    <h4 class="text-[#2A2F83] md:text-2xl  font-semibold md:mb-3  text-lg">Choose your country</h4>
+    <h2 class="font-bold sm:text-4xl px-7  text-2xl md:text-5xl max-w-4xl mx-auto">
+        Study MBBS in Your Dream Country
+    </h2>
+    <p class="text-zinc-600 md:text-lg max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+        as.
+    </p>
+    <div class="swiper4 mt-5 sm:mt-12 overflow-x-hidden relative pb-10">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+           
+             
+             <div class="swiper-slide group rounded-lg ">
+                <div class="h-28 w-28 mx-auto overflow-hidden -mb-12 border-4 border-white shadow-xl rounded-full">
+                   <img src="img/home/about3.jpg" class="w-full h-full object-cover group-hover:scale-110  duration-300" alt="">
+                </div>
+                <div class=" w-full bg-white pt-14 p-6 rounded-xl shadow-xl">
+                    <p class="text-yellow-500 text-xl ">★ ★ ★ ★ ★</p>
+                    <h3 class="sm:text-xl text-lg font-bold my-2">Shivam Goyal</h3>
+                  <p class="sm:text-base text-zinc-500 text-sm font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cupiditate laborum voluptas, repellendus, dolor dolores adipisci repudiandae reiciendis dolore perspiciatis voluptate sit quos.</p>
+                </div>
+            </div>
+
+             
+             <div class="swiper-slide group rounded-lg  ">
+                <div class="h-28 w-28 mx-auto overflow-hidden -mb-12 border-4 border-white shadow-xl rounded-full">
+                   <img src="img/home/about3.jpg" class="w-full h-full object-cover group-hover:scale-110  duration-300" alt="">
+                </div>
+                <div class=" w-full bg-white pt-14 p-6 rounded-xl shadow-xl">
+                    <p class="text-yellow-500 text-xl ">★ ★ ★ ★ ★</p>
+                    <h3 class="sm:text-xl text-lg font-bold my-2">Shivam Goyal</h3>
+                  <p class="sm:text-base text-zinc-500 text-sm font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cupiditate laborum voluptas, repellendus, dolor dolores adipisci repudiandae reiciendis dolore perspiciatis voluptate sit quos.</p>
+                </div>
+            </div>
+
+             
+             <div class="swiper-slide group rounded-lg  ">
+                <div class="h-28 w-28 mx-auto overflow-hidden -mb-12 border-4 border-white shadow-xl rounded-full">
+                   <img src="img/home/about3.jpg" class="w-full h-full object-cover group-hover:scale-110  duration-300" alt="">
+                </div>
+                <div class=" w-full bg-white pt-14 p-6 rounded-xl shadow-xl">
+                    <p class="text-yellow-500 text-xl ">★ ★ ★ ★ ★</p>
+                    <h3 class="sm:text-xl text-lg font-bold my-2">Shivam Goyal</h3>
+                  <p class="sm:text-base text-zinc-500 text-sm font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cupiditate laborum voluptas, repellendus, dolor dolores adipisci repudiandae reiciendis dolore perspiciatis voluptate sit quos.</p>
+                </div>
+            </div>
+
+             
+             <div class="swiper-slide group rounded-lg  ">
+                <div class="h-28 w-28 mx-auto overflow-hidden -mb-12 border-4 border-white shadow-xl rounded-full">
+                   <img src="img/home/about3.jpg" class="w-full h-full object-cover group-hover:scale-110  duration-300" alt="">
+                </div>
+                <div class=" w-full bg-white pt-14 p-6 rounded-xl shadow-xl">
+                    <p class="text-yellow-500 text-xl ">★ ★ ★ ★ ★</p>
+                    <h3 class="sm:text-xl text-lg font-bold my-2">Shivam Goyal</h3>
+                  <p class="sm:text-base text-zinc-500 text-sm font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cupiditate laborum voluptas, repellendus, dolor dolores adipisci repudiandae reiciendis dolore perspiciatis voluptate sit quos.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- If we need navigation buttons -->
+     <div class="flex gap-4 mx-auto w-max font-bold">
+    <div id="slide-next4" class="text-[#2A2F83] w-max hover:text-[#2976A4] duration-300  text-4xl cursor-pointer"><i class="bi bi-arrow-left-square-fill"></i></div>
+        <div id="slide-prev4" class="text-[#2A2F83] w-max hover:text-[#2976A4] duration-30  text-4xl cursor-pointer"><i class="bi bi-arrow-right-square-fill"></i>
+        </div></div>
+</section>
+
+
+<!-- form section -->
+<section class="lg:px-28 md:p-20 sm:p-16 px-4 py-7 flex flex-wrap max-md:items-center  justify-between  max-w-screen-2xl mx-auto" style="background-image: url(img/home/banner2.png);">
+    <div class="sm:w-[47%] w-full max-sm:h-96 pb-7 relative">
+    <img src="img/home/about2.jpg" class="rounded-lg h-full w-full object-cover" alt=""> 
+    <div class="absolute -bottom-2 right-4 flex flex-wrap max-w-max"> 
+        
+        <div
+        class="group bg-black  p-5 sm:px-7 text-white items-center w-max flex sm:gap-7 gap-4 justify-center ">
+        <div class="group-hover:-mt-8 duration-300">
+          <i class="bi bi-people text-2xl sm:text-3xl"></i>
+        </div>
+        <div>
+          <h3 class="sm:text-4xl text-xl font-bold mb-1 progress-number" data-progress="600">0+</h3>
+          <p class="sm:text-base text-sm">Total Tie-Ups</p>
+        </div>
+      </div>
+    
+      <div
+      class="group bg-[#2976A4]  p-5 sm:px-7 text-white items-center w-max flex sm:gap-7 gap-4 justify-center ">
+      <div class="group-hover:-mt-8 duration-300">
+        <i class="bi bi-mortarboard text-2xl sm:text-3xl"></i>
+      </div>
+      <div>
+        <h3 class="sm:text-4xl text-xl font-bold mb-1 progress-number" data-progress="100000">0+</h3>
+        <p class="sm:text-base text-sm">Student Counselled</p>
+      </div>
+    </div>
+
+</div>
+    </div>
+    <div class="lg:w-[42%] sm:w-[48%] w-full max-md:mt-8 overflow-hidden">
+      <div class="wow animate__animated animate__fadeInRight animate-slower" >
+        <form action="contact.php" method="POST" class="rounded-xl w-full shadow-xl bg-white border-t-8 border-[#2A2F83] p-7">
+            <p class="text-[#2A2F83] md:text-xl font-medium mb-5">Contact Us</p>
+
+            <h3 class="text-3xl font-bold smd:text-4xl text-zinc-800 mb-6">Make An Appointment</h3>
+            <div class="w-full flex justify-between flex-wrap gap-y-4 ">
+                <div class=" w-full">
+                    <input type="text" required class="w-full p-4 shadow-lg rounded-md  text-base bg-white text-zinc-700"
+                        placeholder="Your Name" name="name">
+                </div>
+
+                <div class=" w-full">
+                    <input type="email" required class="w-full p-4 shadow-lg rounded-md text-base bg-white text-zinc-700"
+                        placeholder="Your Email" name="email">
+                </div>
+
+                <div class="w-full">
+                    <input type="number" maxlength="15" minlength="7" required
+                        class="w-full p-4 shadow-lg rounded-md  text-base bg-white text-zinc-700" placeholder="Contact No."
+                        name="phone">
+                </div>
+                <div class="w-full">
+                    <input type="text" required
+                        class="w-full p-4 shadow-lg rounded-md  text-base bg-white text-zinc-700" placeholder="State."
+                        name="state">
+                </div>
+                <div class="w-full">
+                    <textarea rows="4" class="w-full p-4 shadow-lg rounded-md  text-base bg-white text-zinc-700"
+                        placeholder="Your Query" name="message"></textarea>
+                </div>
+                <button type="submit"
+                    class="rounded-lg mb-3 -mt-1 text-white font-bold text-base py-4 px-6 w-max bg-main hover:bg-black duration-300 bg-[#2A2F83]">
+                    Submit Now &nbsp;→
+                </button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+   <!-- team member -->
+   <section
+   class="lg:px-28 md:p-20 sm:p-16 px-4 py-7 w-full max-w-screen-2xl mx-auto ">
+   <h4 class="text-[#2A2F83] md:text-2xl text-center font-semibold md:mb-3  text-lg">Choose your country</h4>
+   <h2 class="font-bold sm:text-4xl px-7  text-2xl md:text-5xl max-w-4xl mx-auto">
+       Study MBBS in Your Dream Country
+   </h2>
+   <p class="text-zinc-600 md:text-lg max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+       consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+       as.
+   </p>
+   <div class="flex max-md:flex-col justify-center gap-5 mt-4 sm:mt-12 flex-wrap">
+     <div class="group relative flex-[1]">
+       <img src="img/home/about1.jpg" class="max-h-96 lg:h-[450px] w-full object-cover relative z-10" alt="Lambodar Rout" />
+       <div
+         class="relative bg-white shadow-lg py-6 group-hover:bg-[#2976A4] group-hover:text-white transition-all mx-5 -mt-10 z-20 pr-5">
+         <h3
+           class="pl-5 text-xl font-bold group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">
+           Lambodar Rout
+         </h3>
+         <p class="pl-5 text-zinc-600 group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">Founder & CEO
+         </p>
+       </div>
+     </div>
+     <div class="group relative flex-[1]">
+       <img src="img/home/about1.jpg" class="max-h-96 lg:h-[450px] w-full object-cover relative z-10" alt="Pranav" />
+       <div
+         class="relative bg-white shadow-lg py-6 group-hover:bg-[#2976A4] group-hover:text-white transition-all mx-5 -mt-10 z-20 pr-5">
+         <h3
+           class="pl-5 text-xl font-bold group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">
+           Pranav
+         </h3>
+         <p class="pl-5 text-zinc-600 group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">Performace Marketer
+         </p>
+       </div>
+     </div>
+     <div class="group relative flex-[1]">
+       <img src="img/home/about1.jpg" class="max-h-96 lg:h-[450px] w-full object-cover relative z-10" alt="Sheema" />
+       <div
+         class="relative bg-white shadow-lg py-6 group-hover:bg-[#2976A4] group-hover:text-white transition-all mx-5 -mt-10 z-20 pr-5">
+         <h3
+           class="pl-5 text-xl font-bold group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">
+           Sheema
+         </h3>
+         <p class="pl-5 text-zinc-600 group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">Abroad Admission Expert
+         </p>
+       </div>
+     </div>
+     <div class="group relative flex-[1]">
+       <img src="img/home/about1.jpg" class="max-h-96 lg:h-[450px] w-full object-cover relative z-10" alt="Nayak" />
+       <div
+         class="relative bg-white shadow-lg  py-6 group-hover:bg-[#2976A4] group-hover:text-white transition-all mx-5 -mt-10 z-20 pr-5">
+         <h3
+           class="text-xl pl-5 font-bold group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">
+           Nayak
+         </h3>
+         <p class="pl-5 text-zinc-600 group-hover:text-white border-l-8 border-[#2976A4] group-hover:border-black">Manager
+         </p>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <!-- blogs -->
+ <section
+ class="lg:px-28 md:p-20 sm:p-16 px-4 py-7 w-full max-w-screen-2xl mx-auto bg-[#dce7f169]">
+ <h4 class="text-[#2A2F83] md:text-2xl text-center font-semibold md:mb-3  text-lg">Choose your country</h4>
+ <h2 class="font-bold sm:text-4xl px-7 text-center text-2xl md:text-5xl max-w-4xl mx-auto">
+     Study MBBS in Your Dream Country
+ </h2>
+ <p class="text-zinc-600 md:text-lg max-w-4xl mx-auto text-center font-medium">Lorem ipsum dolor sit amet
+     consectetur adipisicing elit. Provident atque nesciunt beatae ad odit eligendi voluptatibus optio est,
+     as.
+ </p>
+
+
+ 
+ <div class="flex flex-wrap justify-between gap-3 text-white mt-11">
+    
+    <div
+      class="shadow-lg card1 lg:w-[23%] md:w-[32%] sm:w-[48%] w-full mt-4 h-auto md:pb-4 pb-2  border-[8px] border-white bg-white overflow-hidden ">
+      <div class="image md:h-56 h-36">
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="h-full object-cover" width="500" height="300" alt="">
+        </div>
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="md:h-56 h-36  object-cover"  width="500" height="300" alt="">
+        </div>
+      </div>
+      <div class="max-w-max p-3 sticky -mt-9 z-20 bg-[#2976A4] font-bold text-white"> 25 JAN 2023</div>
+
+      <div class="w-[90%] ml-[5%] md:mt-5 mt-3 text-zinc-700 font-medium outfit">
+        <p class="md:text-xl text-lg">Comprehensive immigration services to meet your specific needs and help you achieve your
+          goals abroad.
+        </p>
+        <hr class="md:my-5 my-2">
+
+        <a href="" class="text-[#2976A4] font-bold hover:border-b-2 border-[#2976A4] ">Read More ></a>
+      </div>
+    </div>
+
+    <div
+      class="shadow-lg card1 lg:w-[23%] md:w-[32%] sm:w-[48%] w-full mt-4 h-auto md:pb-4 pb-2  border-[8px] border-white bg-white overflow-hidden ">
+      <div class="image md:h-56 h-36">
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="h-full object-cover" width="500" height="300" alt="">
+        </div>
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="md:h-56 h-36  object-cover"  width="500" height="300" alt="">
+        </div>
+      </div>
+      <div class="max-w-max p-3 sticky -mt-9 z-20 bg-[#2976A4] font-bold text-white"> 25 JAN 2023</div>
+
+      <div class="w-[90%] ml-[5%] md:mt-5 mt-3 text-zinc-700 font-medium outfit">
+        <p class="md:text-xl text-lg">Comprehensive immigration services to meet your specific needs and help you achieve your
+          goals abroad.
+        </p>
+        <hr class="md:my-5 my-2">
+
+        <a href="" class="text-[#2976A4] font-bold hover:border-b-2 border-[#2976A4] ">Read More ></a>
+      </div>
+    </div>
+
+
+    <div
+      class="shadow-lg card1 lg:w-[23%] md:w-[32%] sm:w-[48%] w-full mt-4 h-auto md:pb-4 pb-2  border-[8px] border-white bg-white overflow-hidden ">
+      <div class="image md:h-56 h-36">
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="h-full object-cover" width="500" height="300" alt="">
+        </div>
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="md:h-56 h-36  object-cover"  width="500" height="300" alt="">
+        </div>
+      </div>
+      <div class="max-w-max p-3 sticky -mt-9 z-20 bg-[#2976A4] font-bold text-white"> 25 JAN 2023</div>
+
+      <div class="w-[90%] ml-[5%] md:mt-5 mt-3 text-zinc-700 font-medium outfit">
+        <p class="md:text-xl text-lg">Comprehensive immigration services to meet your specific needs and help you achieve your
+          goals abroad.
+        </p>
+        <hr class="md:my-5 my-2">
+
+        <a href="" class="text-[#2976A4] font-bold hover:border-b-2 border-[#2976A4] ">Read More ></a>
+      </div>
+    </div>
+
+
+    <div
+      class="shadow-lg card1 lg:w-[23%] md:w-[32%] sm:w-[48%] w-full mt-4 h-auto md:pb-4 pb-2  border-[8px] border-white bg-white overflow-hidden ">
+      <div class="image md:h-56 h-36">
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="h-full object-cover" width="500" height="300" alt="">
+        </div>
+        <div class="service-featured-img">
+          <img loading="lazy" decoding="async" src="img/country/bangl-img.webp" class="md:h-56 h-36  object-cover"  width="500" height="300" alt="">
+        </div>
+      </div>
+      <div class="max-w-max p-3 sticky -mt-9 z-20 bg-[#2976A4] font-bold text-white"> 25 JAN 2023</div>
+
+      <div class="w-[90%] ml-[5%] md:mt-5 mt-3 text-zinc-700 font-medium outfit">
+        <p class="md:text-xl text-lg">Comprehensive immigration services to meet your specific needs and help you achieve your
+          goals abroad.
+        </p>
+        <hr class="md:my-5 my-2">
+
+        <a href="" class="text-[#2976A4] font-bold hover:border-b-2 border-[#2976A4] ">Read More ></a>
+      </div>
+    </div>
+
+
+  
+  </div>
+ </section>
+
+
+ <!-- footer -->
+ <footer class="relative w-full bg-[#2A2F83] text-zinc-100">
+    <div class="w-full h-full" style="background: url(Assets/footer.png); background-size: cover">
+      <div class="mx-auto w-full pt-10 max-md:pt-5 h-full max-w-screen-2xl px-5 md:px-36">
+       
+        <!-- footer links  -->
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10">
+          <!-- col1 - logo and content  -->
+          <div class="">
+            <img src="img/logo-white.webp" alt="logo" class="h-16 mb-2" />
+            <p class=" !leading-[1.3] sm:pr-5">
+                17+ years of eminent experience & Authentic Admission Guidance & Career Counseling to Students. Since 2007, more than 1 Lacs student has been counseled for medical courses. Tie up with more than 500 Medical Colleges & Universities across globe.
+            </p>
+            <div class="flex mt-3 md:mt-6 gap-6 text-white text-xl"><a href=""><i
+                class="fa-brands hover:text-[#2976A4]   duration-300  transition-all hover:scale-125 fa-x-twitter"></i></a>
+        <a href=""><i
+                class="fa-brands hover:text-[#2976A4]  transition-all hover:scale-125 fa-facebook-f"></i></a><a
+            href=""><i
+                class="fa-brands hover:text-[#2976A4]  transition-all hover:scale-125 fa-instagram"></i></a>
+        <a href=""><i
+                class="fa-brands hover:text-[#2976A4]  hover:scale-125 transition-all fa-linkedin-in"></i></a>
+    </div>
+          </div>
+
+          <!-- Col 2  - Popular Countries   -->
+          <div class="space-y-5 sm:pl-5">
+            <h6 class="text-xl font-bold">Other Link</h6>
+            <ul class="space-y-3 flex flex-col">
+              <a class="group" href="tourist visa/canada-tourist-visa.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In Canada
+              </a>
+
+              <a class="group" href="tourist visa/australia-tourist-visa.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In Australia
+              </a>
+
+              <a class="group" href="tourist visa/germany-tourist-visa.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In Germany
+              </a>
+
+
+              <a class="group" href="study-visa/study-in-uk.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In UK
+              </a>
+
+
+              <a class="group" href="study-visa/study-in-newzealand.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In New Zealand
+              </a>
+
+            </ul>
+          </div>
+          <!-- Col 3 - Other Countries  -->
+          <div class="space-y-5 sm:pl-5">
+            <h6 class="text-xl font-bold">Other Link</h6>
+            <ul class="space-y-3 flex flex-col">
+              <a class="group" href="tourist visa/canada-tourist-visa.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In Canada
+              </a>
+
+              <a class="group" href="tourist visa/australia-tourist-visa.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In Australia
+              </a>
+
+              <a class="group" href="tourist visa/germany-tourist-visa.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In Germany
+              </a>
+
+
+              <a class="group" href="study-visa/study-in-uk.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In UK
+              </a>
+
+
+              <a class="group" href="study-visa/study-in-newzealand.php">
+                <i class="fa-solid fa-angles-right mr-2 text-[#2976A4] group-hover:text-white"></i>Study In New Zealand
+              </a>
+
+            </ul>
+          </div>
+          <!-- Col 4 - Our Services  -->
+          <div class="space-y-5">
+            <h6 class="text-xl font-bold">Contact Us</h6>
+            <p class=" !leading-[1.3] "><strong>Delhi: </strong>
+                195, 3rd Floor, Lane No. 1, Saidulajab, Western Marg, Behind Saket Metro Station, Saket, New Delhi – 110030            </p>
+                <p class=" !leading-[1.3] "><strong>BHUBANESWAR: </strong>
+                    3rd Floor, Metro House, Vani Vihar, Saheed Nagar, Bhubaneswar – 751007
+
+                </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- all Links  -->
+    <div class="bg-white w-full py-10 max-md:py-5 h-full px-5 md:px-36 text-zinc-800">
+      <div class="w-full max-w-screen-2xl mx-auto space-y-5">
+        <p class="space-x-1">
+          <strong>Study Abroad:</strong> <a href="permanent-residency-visa/canada-pr-visa.php">Study in USA</a> | 
+          <a href="canada/canada-express-entry.php">Study in Australia</a> | 
+          <a href="canada/canada-family-sponsorship.php">Study in Canada</a> | 
+          <a href="dubai/study-in-dubai.php">Study in Dubai</a> | 
+          <a href="france/study-in-france.php">Study in France</a> | 
+          <a href="ireland/study-in-ireland.php">Study in Ireland</a> | 
+          <a href="italy/study-in-italy.php">Study in Italy</a> | 
+          <a href="malaysia/study-in-malaysia.php">Study in Malaysia</a> | 
+          <a href="new-zealand/study-in-new-zealand.php">Study in New Zealand</a> | 
+          <a href="singapore/study-in-singapore.php">Study in Singapore</a> | 
+          <a href="uk/study-in-uk.php">Study in UK</a>
+          
+        </p>
+
+
+        <p class="space-x-1">
+          <strong>MBA Abroad:</strong> <a href="australia/mba-in-australia.php">MBA In Australia</a> | 
+          <a href="canada/mba-in-canada.php">MBA In Canada</a> | 
+          <a href="dubai/mba-in-dubai.php">MBA In Dubai</a> | 
+          <a href="france/mba-in-france.php">MBA In France</a> | 
+          <a href="germany/mba-in-germany.php">MBA In Germany</a> | 
+          <a href="ireland/mba-in-ireland.php">MBA In Ireland</a> | 
+          <a href="italy/mba-in-italy.php">MBA In Italy</a> | 
+          <a href="malaysia/mba-in-malaysia.php">MBA In Malaysia</a> | 
+          <a href="new-zealand/mba-in-new-zealand.php">MBA In New Zealand</a> | 
+          <a href="singapore/mba-in-singapore.php">MBA In Singapore</a> | 
+          <a href="uk/mba-in-uk.php">MBA In UK</a> | 
+          <a href="usa/mba-in-usa.php">MBA In USA</a>
+          
+        </p>
+        <p class="space-x-1">
+          <strong><a href="#">MBBS Abroad</a>:</strong>
+          <a href="armenia/mbbs-in-armenia.php">MBBS In Armenia</a> | 
+<a href="bangladesh/mbbs-in-bangladesh.php">MBBS In Bangladesh</a> | 
+<a href="belarus/mbbs-in-belarus.php">MBBS In Belarus</a> | 
+<a href="china/mbbs-in-china.php">MBBS In China</a> | 
+<a href="georgia/mbbs-in-georgia.php">MBBS In Georgia</a> | 
+<a href="germany/mbbs-in-germany.php">MBBS In Germany</a> | 
+<a href="kazakhstan/mbbs-in-kazakhstan.php">MBBS In Kazakhstan</a> | 
+<a href="kyrgyzstan/mbbs-in-kyrgyzstan.php">MBBS In Kyrgyzstan</a> | 
+<a href="malaysia/mbbs-in-malaysia.php">MBBS In Malaysia</a> | 
+<a href="mauritius/mbbs-in-mauritius.php">MBBS In Mauritius</a> | 
+<a href="nepal/mbbs-in-nepal.php">MBBS In Nepal</a> | 
+<a href="philippines/mbbs-in-philippines.php">MBBS IN PHILIPPINES</a> | 
+<a href="poland/mbbs-in-poland.php">MBBS In Poland</a> | 
+<a href="russia/mbbs-in-russia.php">MBBS In Russia</a> | 
+<a href="uzbekistan/mbbs-in-uzbekistan.php">MBBS In Uzbekistan</a>
+
+        </p>
+
+
+      </div>
+    </div>
+    <!-- copyright  -->
+    <div class=" bg-[#2A2F83] text-center w-full py-5 h-full px-5 md:px-36 text-white">
+      <div class="w-full max-w-screen-2xl mx-auto">
+        © Copyright 2024 | All Rights are Reserved | Designed and Managed By
+        Skyward Digital Solutions
+      </div>
+    </div>
+  </footer>
+
+
+ 
+ <script>
+    var wow_js = new WOW({
+        animateClass: "animated",
+
+        mobile: true,
+    });
+    wow_js.init();
+</script>
         <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="swiper.js"></script>
+        <script src="wow.min.js"></script>
         <script src="script.js"></script>
 </body>
 

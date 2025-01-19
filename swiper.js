@@ -72,29 +72,29 @@ const swiper3 = new Swiper('.swiper3', {
     },
      speed: 400,
     slidesPerView: 1,
-    spaceBetween: 10,
-    breakpoints: {
-      100: {
-        slidesPerView: 1,
-        spaceBetween: 10
-      },
-      580: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-     860: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      }
-    },
+    spaceBetween: 0,
+    // breakpoints: {
+    //   100: {
+    //     slidesPerView: 1,
+    //     spaceBetween: 10
+    //   },
+    //   580: {
+    //     slidesPerView: 2,
+    //     spaceBetween: 30
+    //   },
+    //  860: {
+    //     slidesPerView: 2,
+    //     spaceBetween: 30
+    //   }
+    // },
     // pagination: {
     //     el: '.swiper-pagination',
     // },
 
-    navigation: {
-        nextEl: '#slide-prev3',
-        prevEl: '#slide-next3',
-    },
+    // navigation: {
+    //     nextEl: '#slide-prev3',
+    //     prevEl: '#slide-next3',
+    // },
 
     // scrollbar: {
     //     el: '.swiper-scrollbar',
@@ -115,11 +115,11 @@ const swiper4 = new Swiper('.swiper4', {
       slidesPerView: 1,
       spaceBetween: 10
     },
-    580: {
+    570: {
       slidesPerView: 2,
       spaceBetween: 30
     },
-   1230: {
+   930: {
       slidesPerView: 3,
       spaceBetween: 30
     }
